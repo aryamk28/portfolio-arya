@@ -1,0 +1,51 @@
+.navbar {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(12px);
+}
+
+.nav-inner {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+
+    display: flex;
+    /* 🔥 MUST */
+    align-items: center;
+    /* 🔥 MUST */
+    justify-content: space-between;
+    /* 🔥 MUST */
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+/* 🔥 THIS IS THE MISSING PIECE */
+.nav-links {
+    display: flex;
+    /* makes links horizontal */
+    gap: 28px;
+}
+
+/* Links */
+.nav-links a {
+    text-decoration: none;
+    color: #222;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.nav-links a.active {
+    color: #6a71ee;
+    /* your clicked/active color */
+    transition: 0.3s;
+
+}
