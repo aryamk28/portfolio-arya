@@ -107,7 +107,7 @@
     justify-content: flex-end;
 }
 
-/* Mobile @media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     .qualification-data {
         grid-template-columns: max-content 1fr;
     }

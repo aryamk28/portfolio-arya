@@ -41,6 +41,7 @@
     color: #222;
     font-weight: 500;
     transition: 0.3s;
+    font-size: 15px;
 }
 
 .nav-links a.active {

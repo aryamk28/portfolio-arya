@@ -10,6 +10,7 @@ import About from "./components/About";
 import Home from "./components/Home";
 import Navbar from "./components/NavBar";
 import './components/NavBar.css'
+import Footer from "./components/Footer";
 
 
 
@@ -24,6 +25,7 @@ export default function App() {
       <section id='qualification' className='py-20'><Qualification /></section>
       <section id='projects' className='py-20'><Projects /></section>
       <section id='contact' className='py-20'><Contact /></section>
+      <Footer />
     </div>
   );
 }
