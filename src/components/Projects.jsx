@@ -51,6 +51,14 @@ const projectsData = [
         code: "https://github.com/aryamk28/portfolio",
         demo: "https://aryamk28.github.io/portfolio/"
     },
+    {
+        id: 7,
+        title: "Movement Studios",
+        category: "Web",
+        img: "Dance.png",
+        code: "https://github.com/aryamk28/dance",
+        demo: "https://aryamk28.github.io/dance/"
+    },
 ];
 
 export default function Projects() {
