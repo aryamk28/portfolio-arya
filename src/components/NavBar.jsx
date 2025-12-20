@@ -32,7 +32,7 @@ export default function Navbar() {
     return (
         <header className="navbar">
             <div className="nav-inner">
-                <div className="logo">Arya</div>
+
                 <nav className="nav-links">
                     {links.map((link) => (
                         <a

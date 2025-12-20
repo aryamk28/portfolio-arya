@@ -21,16 +21,13 @@
     /* 🔥 MUST */
 }
 
-.logo {
-    font-size: 22px;
-    font-weight: 500;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-style: italic;
-}
+
 
 /* 🔥 THIS IS THE MISSING PIECE */
 .nav-links {
     display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
     /* makes links horizontal */
     gap: 28px;
 }
