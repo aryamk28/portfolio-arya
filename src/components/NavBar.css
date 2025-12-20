@@ -50,26 +50,34 @@
 
 
 
-/* ================= MOBILE ONLY ================= */
 @media (max-width: 768px) {
 
+    .navbar {
+        width: 100%;
+        overflow-x: hidden;
+        /* ⬅️ stops horizontal overflow */
+    }
+
     .nav-inner {
+        width: 100%;
+        max-width: 100%;
+        padding: 12px 14px;
+        /* reduced padding */
         flex-direction: column;
         align-items: center;
-        padding: 14px;
     }
 
     .nav-links {
+        width: 100%;
         margin-left: 0;
-        /* remove auto push */
         justify-content: center;
         flex-wrap: wrap;
-        /* wrap if many links */
-        gap: 18px;
-        width: 100%;
+        gap: 16px;
     }
 
     .nav-links a {
+        white-space: nowrap;
+        /* prevents text from stretching */
         font-size: 14px;
     }
 }
