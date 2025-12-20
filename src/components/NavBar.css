@@ -55,29 +55,30 @@
     .navbar {
         width: 100%;
         overflow-x: hidden;
-        /* ⬅️ stops horizontal overflow */
     }
 
     .nav-inner {
         width: 100%;
         max-width: 100%;
-        padding: 12px 14px;
-        /* reduced padding */
-        flex-direction: column;
+        padding: 10px 8px;
+        /* smaller padding */
+        flex-direction: row;
+        /* FORCE single line */
         align-items: center;
     }
 
     .nav-links {
-        width: 100%;
-        margin-left: 0;
-        justify-content: center;
-        flex-wrap: wrap;
-        gap: 16px;
+        width: auto;
+        margin-left: auto;
+        gap: 12px;
+        /* reduced gap */
+        flex-wrap: nowrap;
+        /* 🔥 NO WRAP */
     }
 
     .nav-links a {
+        font-size: 13px;
+        /* smaller text */
         white-space: nowrap;
-        /* prevents text from stretching */
-        font-size: 14px;
     }
 }
