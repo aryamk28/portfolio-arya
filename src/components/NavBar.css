@@ -47,3 +47,29 @@
     transition: 0.3s;
 
 }
+
+
+
+/* ================= MOBILE ONLY ================= */
+@media (max-width: 768px) {
+
+    .nav-inner {
+        flex-direction: column;
+        align-items: center;
+        padding: 14px;
+    }
+
+    .nav-links {
+        margin-left: 0;
+        /* remove auto push */
+        justify-content: center;
+        flex-wrap: wrap;
+        /* wrap if many links */
+        gap: 18px;
+        width: 100%;
+    }
+
+    .nav-links a {
+        font-size: 14px;
+    }
+}
